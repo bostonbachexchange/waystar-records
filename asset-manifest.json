@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waystar-records/static/css/main.becf5b94.css",
-    "main.js": "/waystar-records/static/js/main.87d28836.js",
+    "main.js": "/waystar-records/static/js/main.98b66a99.js",
     "static/js/453.5c11b83c.chunk.js": "/waystar-records/static/js/453.5c11b83c.chunk.js",
     "static/media/Tom.jpeg": "/waystar-records/static/media/Tom.3831039794c01c3f4db5.jpeg",
     "static/media/kendall2.jpg": "/waystar-records/static/media/kendall2.7b40fcd5e13c49ebaa87.jpg",
@@ -11,11 +11,11 @@
     "static/media/kendall.jpg": "/waystar-records/static/media/kendall.0410c7028d010ded6605.jpg",
     "index.html": "/waystar-records/index.html",
     "main.becf5b94.css.map": "/waystar-records/static/css/main.becf5b94.css.map",
-    "main.87d28836.js.map": "/waystar-records/static/js/main.87d28836.js.map",
+    "main.98b66a99.js.map": "/waystar-records/static/js/main.98b66a99.js.map",
     "453.5c11b83c.chunk.js.map": "/waystar-records/static/js/453.5c11b83c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.becf5b94.css",
-    "static/js/main.87d28836.js"
+    "static/js/main.98b66a99.js"
   ]
 }
