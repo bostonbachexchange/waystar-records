@@ -1,11 +1,24 @@
-// src/components/Footer.js
 import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>&copy; {new Date().getFullYear()} Waystar Records. All rights reserved.</p>
-      <p>Disclaimer: This is a fictional website created for demonstration purposes only. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.</p>
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="contact-info">
+          <div>Contact Us: example@example.com | 123-456-7890</div>
+          <div>Follow Us: <a href="https://twitter.com/WaystarRecords" target="_blank" rel="noopener noreferrer">Twitter</a> | <a href="https://www.facebook.com/WaystarRecords" target="_blank" rel="noopener noreferrer">Facebook</a></div>
+        </div>
+        <div className="quote">
+          <p>"Music is the language of the soul, and Waystar Records is its ultimate translator."</p>
+        <div className="signature">
+          <p>Signed,</p>
+          <p>Kendall Roy</p>
+        </div>
+        </div>
+      </div>
+      <div className="copyright">
+        <p>&copy; 2024 Waystar Records. All rights reserved.</p>
+      </div>
     </footer>
   );
 }

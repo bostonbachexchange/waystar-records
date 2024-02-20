@@ -1,38 +1,256 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3 {
+  font-family: 'Arial Black', sans-serif; /* Use a bold font for headings */
+  color: #333; /* Dark color for headings */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+/* Styling for paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+nav {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Transition for link color */
+}
+
+nav ul li a:hover {
+  color: #ff8800;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-content {
+  font-size: 18px;
+  color: #333; /* Darker text color */
+  line-height: 1.6;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+
+.section-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark color for section headings */
+}
+
+.section-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.section-content a {
+  color: #ff8800; /* Waystar Records brand color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.section-content a:hover {
+  color: #d66a00; /* Darker shade of brand color on hover */
+}
+
+/* Styling for buttons */
+.button {
+  display: inline-block;
+  background-color: #ff8800 !important; /* Waystar Records brand color */
+  color: #fff !important; /* White text color */
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition for both background color and text color */
+}
+
+.button:hover {
+  background-color: #d66a00 !important; /* Darker shade of brand color on hover */
+}
+
+/* Styling for footer */
+.footer {
+  background-color: #222; /* Dark background color for footer */
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.signature {
+  margin-bottom: 20px;
+}
+
+.quote {
+  margin-bottom: 20px;
+}
+
+.quote p {
+  font-style: italic;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+
+.footer-content div {
+  margin-bottom: 10px;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transition for link color */
+}
+
+.footer-content a:hover {
+  color: #ff8800; /* Waystar Records brand color on hover */
+}
+
+
+.footer p {
+  margin: 0;
+}
+
+.home-banner {
+  background-image: url('./assets/kendall.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: relative; /* Ensure positioning of overlay */
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.home-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.home-banner h1,
+.home-banner p {
+  position: relative; /* Ensure text remains above overlay */
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h2 {
+    font-size: 24px;
   }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .section-content h2 {
+    font-size: 20px;
+  }
+
+  .section-content p {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+  .home-banner h1 {
+    font-size: 24px;
+  }
+  .home-banner p {
+    font-size: 16px;
+  }
+  .section-content {
+    font-size: 16px;
+  }
+
 }
