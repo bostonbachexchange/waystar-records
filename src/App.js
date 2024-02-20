@@ -20,44 +20,44 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/waystar-records/">Home</Link>
             </li>
             <li>
-              <Link to="/artists">Artists</Link>
+              <Link to="/waystar-records/artists">Artists</Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/waystar-records/about">About Us</Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/waystar-records/services">Services</Link>
             </li>
             <li>
-              <Link to="/events">Events</Link>
+              <Link to="/waystar-records/events">Events</Link>
             </li>
             <li>
-              <Link to="/news">News</Link>
+              <Link to="/waystar-records/news">News</Link>
             </li>
             <li>
-              <Link to="/releases">Releases</Link>
+              <Link to="/waystar-records/releases">Releases</Link>
             </li>
             <li>
-              <Link to="/testimonials">Testimonials</Link>
+              <Link to="/waystar-records/testimonials">Testimonials</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/waystar-records/contact">Contact</Link>
             </li>
           </ul>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/artists" element={<Artists />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/waystar-records/" element={<Home />} />
+          <Route path="/waystar-records/artists" element={<Artists />} />
+          <Route path="/waystar-records/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/releases" element={<Releases />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/waystar-records/events" element={<Events />} />
+          <Route path="/waystar-records/news" element={<News />} />
+          <Route path="/waystar-records/releases" element={<Releases />} />
+          <Route path="/waystar-records/testimonials" element={<Testimonials />} />
+          <Route path="/waystar-records/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
