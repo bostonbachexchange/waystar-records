@@ -1,0 +1,45 @@
+/* Releases.css */
+.releases-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .release {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .album-cover {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .release-details {
+    flex: 1;
+  }
+  
+  .album-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .artist-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .release-date {
+    font-size: 14px;
+    color: #888;
+  }
+  

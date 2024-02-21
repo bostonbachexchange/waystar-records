@@ -52,7 +52,7 @@ function App() {
           <Route path="/waystar-records/" element={<Home />} />
           <Route path="/waystar-records/artists" element={<Artists />} />
           <Route path="/waystar-records/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/waystar-records/services" element={<Services />} />
           <Route path="/waystar-records/events" element={<Events />} />
           <Route path="/waystar-records/news" element={<News />} />
           <Route path="/waystar-records/releases" element={<Releases />} />

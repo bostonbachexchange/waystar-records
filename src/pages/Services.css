@@ -1,0 +1,40 @@
+/* Services.css */
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .service-details {
+    flex: 1;
+  }
+  
+  .service-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

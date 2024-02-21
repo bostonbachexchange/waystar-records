@@ -1,17 +1,30 @@
-// src/pages/Testimonials.js
+// Testimonials.js
 import React from 'react';
-import kendallImage from '../assets/kendall.jpg';
+import './Testimonials.css'; // Import the Testimonials page styles
 
 const Testimonials = () => {
   return (
-    <div>
-      <h2>Testimonials</h2>
+    <div className="testimonials-container">
+      <h2 className="page-title">Testimonials</h2>
+      
       <div className="testimonial">
-        <img src={kendallImage} alt="Kendall Roy" />
-        <p>"Kendall Roy is not only a visionary CEO but also an unparalleled artist. His music touches the soul and his leadership inspires greatness."</p>
-        <p>- Famous Music Producer</p>
+        <img src="./assets/testimonial1.jpg" alt="Testimonial 1" className="testimonial-image" />
+        <div className="testimonial-details">
+          <p className="quote">"Waystar Records has been instrumental in launching my music career. Their team is professional, dedicated, and truly passionate about their work."</p>
+          <p className="source">- Kendall Roy, CEO of Waystar Records</p>
+        </div>
       </div>
-      {/* Repeat the above for each testimonial */}
+
+      <div className="testimonial">
+        <img src="./assets/testimonial2.jpg" alt="Testimonial 2" className="testimonial-image" />
+        <div className="testimonial-details">
+          <p className="quote">"Working with Waystar Records was a dream come true. Their expertise and guidance helped me achieve my musical goals faster than I ever imagined."</p>
+          <p className="source">- Shiv Roy, Artist</p>
+        </div>
+      </div>
+
+      {/* Add more testimonials here */}
+      
     </div>
   );
 }

@@ -1,0 +1,75 @@
+/* Events.css */
+.events-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .event {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .event-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .event-date,
+  .event-location {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .event-description {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Events.css */
+
+/* Existing styles... */
+
+/* Animation for event titles */
+.event-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    animation: fadeInUp 0.5s ease forwards;
+  }
+  
+  /* Animation for event details */
+  .event-details {
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
