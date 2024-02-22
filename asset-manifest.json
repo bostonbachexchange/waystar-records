@@ -1,21 +1,35 @@
 {
   "files": {
     "main.css": "/waystar-records/static/css/main.fb86d0f8.css",
-    "main.js": "/waystar-records/static/js/main.ae74561b.js",
+    "main.js": "/waystar-records/static/js/main.2b211fd0.js",
     "static/js/453.5c11b83c.chunk.js": "/waystar-records/static/js/453.5c11b83c.chunk.js",
     "static/media/Tom.jpeg": "/waystar-records/static/media/Tom.3831039794c01c3f4db5.jpeg",
+    "static/media/MusicProduction.png": "/waystar-records/static/media/MusicProduction.99286d167e59986be9f9.png",
+    "static/media/Connor.webp": "/waystar-records/static/media/Connor.0f410daf8a483aa87ff6.webp",
+    "static/media/Kendall3.webp": "/waystar-records/static/media/Kendall3.e80cc17c74f0c5b62c42.webp",
     "static/media/kendall2.jpg": "/waystar-records/static/media/kendall2.7b40fcd5e13c49ebaa87.jpg",
     "static/media/Shiv.webp": "/waystar-records/static/media/Shiv.af2fac4637eb263b69d9.webp",
+    "static/media/RomanDream.jpeg": "/waystar-records/static/media/RomanDream.492bb05709aa12b25d9d.jpeg",
+    "static/media/GerriArt.jpeg": "/waystar-records/static/media/GerriArt.4102ff93a07749abdf0f.jpeg",
+    "static/media/shiv2.webp": "/waystar-records/static/media/shiv2.877a3ee5dd528119e3f8.webp",
+    "static/media/shivtest.avif": "/waystar-records/static/media/shivtest.8e8230303c7aac2b57a0.avif",
+    "static/media/GregAlbum.jpeg": "/waystar-records/static/media/GregAlbum.138ca6c96b7cfe74c105.jpeg",
     "static/media/Greg.webp": "/waystar-records/static/media/Greg.be4b153ce1286757b8ed.webp",
+    "static/media/kendallaward.jpeg": "/waystar-records/static/media/kendallaward.2efe5ab102999d8a87fd.jpeg",
+    "static/media/tomalbum.jpeg": "/waystar-records/static/media/tomalbum.c1b29bc78e26a4fba325.jpeg",
     "static/media/Roman.jpg": "/waystar-records/static/media/Roman.34290e8d8fd8c50f043b.jpg",
     "static/media/kendall.jpg": "/waystar-records/static/media/kendall.0410c7028d010ded6605.jpg",
+    "static/media/artistdev.webp": "/waystar-records/static/media/artistdev.caa2611e5b6bbd222409.webp",
+    "static/media/romanNight.webp": "/waystar-records/static/media/romanNight.cb38140046cc35c55a99.webp",
+    "static/media/KendallPress.jpeg": "/waystar-records/static/media/KendallPress.5d7573778f4e0ac64a4f.jpeg",
+    "static/media/KendallBurger.webp": "/waystar-records/static/media/KendallBurger.055b72abd3fba5b4c5ae.webp",
     "index.html": "/waystar-records/index.html",
     "main.fb86d0f8.css.map": "/waystar-records/static/css/main.fb86d0f8.css.map",
-    "main.ae74561b.js.map": "/waystar-records/static/js/main.ae74561b.js.map",
+    "main.2b211fd0.js.map": "/waystar-records/static/js/main.2b211fd0.js.map",
     "453.5c11b83c.chunk.js.map": "/waystar-records/static/js/453.5c11b83c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb86d0f8.css",
-    "static/js/main.ae74561b.js"
+    "static/js/main.2b211fd0.js"
   ]
 }
