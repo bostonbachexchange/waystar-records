@@ -25,6 +25,7 @@ const Artists = () => {
         <img src={RomanImage} alt="Roman Roy" className="artist-image" />
         <div className="artist-details">
           <h3 className="artist-name">Roman Roy</h3>
+          {/* "Rotten Cabal is a good name for a band" S3E02 */}
           <p className="artist-bio">Roman Roy is not just a name; it's a brand. With his magnetic personality and infectious energy, Roman commands attention both on and off the stage. His music is a celebration of life's highs and lows, infused with a sense of rebellion and a touch of nostalgia.</p>
         </div>
       </div>

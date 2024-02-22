@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="contact-info">
-          <div>Contact Us: example@example.com | 123-456-7890</div>
+          <div>Contact Us: info@waystarrecords.com | 123-456-7890</div>
           <div>Follow Us: <a href="https://twitter.com/WaystarRecords" target="_blank" rel="noopener noreferrer">Twitter</a> | <a href="https://www.facebook.com/WaystarRecords" target="_blank" rel="noopener noreferrer">Facebook</a></div>
         </div>
         <div className="quote">
@@ -13,12 +13,12 @@ const Footer = () => {
         <div className="signature">
           <p>Signed,</p>
           <p>Kendall Roy</p>
-        </div>
-        </div>
       </div>
       <div className="copyright">
         <p>&copy; 2024 Waystar Records. All rights reserved.</p>
       </div>
+        </div>
+        </div>
     </footer>
   );
 }
