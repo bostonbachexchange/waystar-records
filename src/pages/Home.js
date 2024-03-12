@@ -30,7 +30,7 @@ const Home = () => {
       <div className="section-content home-subtitle">
         <h2>About Us</h2>
         <p>Waystar Records is a leading music label dedicated to delivering high-quality music experiences to our audience. With a roster of talented artists and a commitment to innovation, we strive to push the boundaries of the music industry.</p>
-        <Link to="/waystar-records/about" className="button home-button">Learn More</Link>
+        <Link to="/about" className="button home-button">Learn More</Link>
       </div>
       <div className="section-content  home-title">
         <h2>Featured Artists</h2>
