@@ -49,6 +49,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/waystar-records/" element={<Home />} />
           <Route path="/waystar-records/artists" element={<Artists />} />
           <Route path="/waystar-records/about" element={<About />} />
