@@ -16,7 +16,7 @@ const Artists = () => {
         <img src={KendallImage} alt="Kendall Roy" className="artist-image" />
         <div className="artist-details">
           <h3 className="artist-name">Kendall Roy</h3>
-          <p className="artist-bio">As the CEO of Roy Sound Enterprises, Kendall Roy is not only a master of the boardroom but also a visionary artist. With his unique blend of raw talent and business acumen, Kendall brings a fresh perspective to the music industry, pushing boundaries and challenging norms with every beat.</p>
+          <p className="artist-bio">As the CEO of Waystar Records, Kendall Roy is not only a master of the boardroom but also a visionary artist. With his unique blend of raw talent and business acumen, Kendall brings a fresh perspective to the music industry, pushing boundaries and challenging norms with every beat.</p>
         </div>
       </div>
 
