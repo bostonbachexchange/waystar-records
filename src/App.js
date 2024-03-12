@@ -20,9 +20,6 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
               <Link to="/waystar-records/">Home</Link>
             </li>
             <li>
